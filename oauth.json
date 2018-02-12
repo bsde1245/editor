@@ -2,5 +2,5 @@
   "api": "https://api.github.com",
   "site": "https://github.com",
   "clientId": "3b4b08da2e6c6fb69c2e",
-  "gatekeeperUrl": "https://justinechacko-editor.herokuapp.com/"
+  "gatekeeperUrl": "https://justine-editor.herokuapp.com/"
 }
