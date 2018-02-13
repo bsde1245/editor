@@ -2551,10 +2551,10 @@ a:hover .popup {
 
 /* Default styles for common addons */
 div.CodeMirror span.CodeMirror-matchingbracket {
-  color: #0f0; }
+  color: #0b0; }
 
 div.CodeMirror span.CodeMirror-nonmatchingbracket {
-  color: #f22; }
+  color: #a22; }
 
 .CodeMirror-matchingtag {
   background: rgba(255, 150, 0, 0.3); }
@@ -2694,7 +2694,8 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 .CodeMirror-linewidget {
   position: relative;
   z-index: 2;
-  overflow: auto; }
+  padding: 0.1px;
+  /* Force widget margins to stay inside of the container */ }
 
 .CodeMirror-rtl pre {
   direction: rtl; }
